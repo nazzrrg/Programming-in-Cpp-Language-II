@@ -1,4 +1,8 @@
-## Лабораторная работа №1. Передача значения по ссылке.
+# Лабораторная работа №1. Передача значения по ссылке.
+## Файлы работы:
+[main.cpp](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab1/main.cpp)
+[task_4.cpp](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab1/task_4.cpp), [task_4.h] (https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab1/task_4.h)
+## Задание
 1. Объявите (в отельном заголовочном файле) и реализуйте (в другом файле)
 процедуры (они не возвращают значений!) согласно варианту.
 2. Все процедуры должны быть написаны в двух вариантах – один вариант использует
