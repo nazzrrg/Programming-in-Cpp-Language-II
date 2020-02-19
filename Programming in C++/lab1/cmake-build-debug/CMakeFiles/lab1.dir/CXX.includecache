@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/main.cpp
+iostream
+-
+task_1.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/task_1.h
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/task_1.h
+utility
+-
+
