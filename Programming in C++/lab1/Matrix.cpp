@@ -7,7 +7,7 @@ Matrix::Matrix() {
     for (auto& v : mat) {
         v.resize(size);
     }
-}\
+}
 Matrix::Matrix(double val, size_t n) {
     size = n;
     mat.resize(size);
