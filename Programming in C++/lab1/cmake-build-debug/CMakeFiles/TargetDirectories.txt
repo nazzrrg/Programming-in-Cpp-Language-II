@@ -1,0 +1,3 @@
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug/CMakeFiles/lab1.dir
