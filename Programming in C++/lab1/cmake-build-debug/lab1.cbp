@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lab1">
-				<Option output="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug/lab1" prefix_auto="0" extension_auto="0"/>
+			<Target title="test2">
+				<Option output="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug/test2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lab1/fast">
-				<Option output="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug/lab1" prefix_auto="0" extension_auto="0"/>
+			<Target title="test2/fast">
+				<Option output="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug/test2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,15 +73,39 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test2/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming\ in\ C++/lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/Matrix.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/Matrix.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/circle.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/circle.h">
+			<Option target="test2"/>
+		</Unit>
 		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/main.cpp">
-			<Option target="lab1"/>
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/task_4.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/task_4.h">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/task_7.cpp">
+			<Option target="test2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/task_7.h">
+			<Option target="test2"/>
 		</Unit>
 		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -221,6 +221,12 @@ lab1_BINARY_DIR:STATIC=/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Program
 //Value Computed by CMake
 lab1_SOURCE_DIR:STATIC=/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1
 
+//Value Computed by CMake
+test2_BINARY_DIR:STATIC=/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/cmake-build-debug
+
+//Value Computed by CMake
+test2_SOURCE_DIR:STATIC=/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1
+
 
 ########################
 # INTERNAL cache entries

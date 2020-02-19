@@ -111,17 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab1
+# Target rules for targets named test2
 
 # Build rule for target.
-lab1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab1
-.PHONY : lab1
+test2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test2
+.PHONY : test2
 
 # fast build rule for target.
-lab1/fast:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
-.PHONY : lab1/fast
+test2/fast:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/build
+.PHONY : test2/fast
+
+Matrix.o: Matrix.cpp.o
+
+.PHONY : Matrix.o
+
+# target to build an object file
+Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
+
+Matrix.i: Matrix.cpp.i
+
+.PHONY : Matrix.i
+
+# target to preprocess a source file
+Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
+
+Matrix.s: Matrix.cpp.s
+
+.PHONY : Matrix.s
+
+# target to generate assembly for a file
+Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
+circle.o: circle.cpp.o
+
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/circle.cpp.s
+.PHONY : circle.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +201,62 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+task_4.o: task_4.cpp.o
+
+.PHONY : task_4.o
+
+# target to build an object file
+task_4.cpp.o:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/task_4.cpp.o
+.PHONY : task_4.cpp.o
+
+task_4.i: task_4.cpp.i
+
+.PHONY : task_4.i
+
+# target to preprocess a source file
+task_4.cpp.i:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/task_4.cpp.i
+.PHONY : task_4.cpp.i
+
+task_4.s: task_4.cpp.s
+
+.PHONY : task_4.s
+
+# target to generate assembly for a file
+task_4.cpp.s:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/task_4.cpp.s
+.PHONY : task_4.cpp.s
+
+task_7.o: task_7.cpp.o
+
+.PHONY : task_7.o
+
+# target to build an object file
+task_7.cpp.o:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/task_7.cpp.o
+.PHONY : task_7.cpp.o
+
+task_7.i: task_7.cpp.i
+
+.PHONY : task_7.i
+
+# target to preprocess a source file
+task_7.cpp.i:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/task_7.cpp.i
+.PHONY : task_7.cpp.i
+
+task_7.s: task_7.cpp.s
+
+.PHONY : task_7.s
+
+# target to generate assembly for a file
+task_7.cpp.s:
+	$(MAKE) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/task_7.cpp.s
+.PHONY : task_7.cpp.s
 
 # Help Target
 help:
@@ -158,10 +266,22 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... lab1"
+	@echo "... test2"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... task_4.o"
+	@echo "... task_4.i"
+	@echo "... task_4.s"
+	@echo "... task_7.o"
+	@echo "... task_7.i"
+	@echo "... task_7.s"
 .PHONY : help
 
 
