@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/FIFO.h
+cstdint
+-
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/main.cpp
+iostream
+-
+mySquare.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/mySquare.h
+FIFO.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/FIFO.h
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/mySquare.h
+utility
+-
+iostream
+-
+
