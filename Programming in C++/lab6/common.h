@@ -4,10 +4,10 @@
 #ifndef LAB4_COMMON_H
 #define LAB4_COMMON_H
 
-template <typename containerIterator>
-bool noneOf(containerIterator, containerIterator, bool);
-template <typename containerIterator>
-bool isSorted(containerIterator, containerIterator, bool);
+template <typename containerIterator, typename object>
+bool noneOf(containerIterator, containerIterator, std::function<bool(object)>);
+template <typename containerIterator, typename object>
+bool isSorted(containerIterator, containerIterator, std::function<bool(object, object)>);
 template <typename containerIterator, typename object>
 object findNot(containerIterator, containerIterator, object);
 
