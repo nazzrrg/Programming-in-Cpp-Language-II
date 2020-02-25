@@ -1,8 +1,8 @@
 //
 // Created by Егор Назаров on 25.02.2020.
 //
-#ifndef LAB4_COMMON_H
-#define LAB4_COMMON_H
+#ifndef LAB6_COMMON_H
+#define LAB6_COMMON_H
 
 template <typename containerIterator, typename object>
 bool noneOf(containerIterator, containerIterator, std::function<bool(object)>);
