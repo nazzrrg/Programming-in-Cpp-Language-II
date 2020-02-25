@@ -83,9 +83,6 @@
 		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/common.h">
 			<Option target="lab6"/>
 		</Unit>
-		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/common.tpp">
-			<Option target="lab6"/>
-		</Unit>
 		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/main.cpp">
 			<Option target="lab6"/>
 		</Unit>
