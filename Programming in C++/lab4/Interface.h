@@ -10,8 +10,8 @@
 
 class IGeoFig {
 public:
-    virtual double getSquare() const = 0;
-    virtual double getPerimeter() const = 0;
+    [[nodiscard]] virtual double getSquare() const = 0;
+    [[nodiscard]] virtual double getPerimeter() const = 0;
 };
 
 class Vector2D {
@@ -21,12 +21,16 @@ public:
     Vector2D (){
         x = y = 0;
     }
+    Vector2D (double x_, double y_){
+        x = x_;
+        y = y_;
+    }
 };
 
 class IPhysObject {
 public:
-    virtual double getMass() const = 0;
-    virtual Vector2D getPosition() const = 0;
+    [[nodiscard]] virtual double getMass() const = 0;
+    [[nodiscard]] virtual Vector2D getPosition() const = 0;
     virtual bool operator==(const IPhysObject& ob) const = 0;
     virtual bool operator<(const IPhysObject& ob) const = 0;
 };
@@ -43,8 +47,8 @@ public:
 
 class IBaseObject {
 public:
-    virtual std::string getClassName() const = 0;
-    virtual uint64_t getSize() const = 0;
+    [[nodiscard]] virtual std::string getClassName() const = 0;
+    [[nodiscard]] virtual uint64_t getSize() const = 0;
 };
 
 class IFigure: public IGeoFig, public IPhysObject, public IPrintable, public IDialogInitiable, public IBaseObject {};
@@ -61,21 +65,21 @@ public:
 
     bool operator<(const IPhysObject& x) const override;
 
-    double getSquare() const override;
+    [[nodiscard]] double getSquare() const override;
 
-    double getPerimeter() const override;
+    [[nodiscard]] double getPerimeter() const override;
 
-    double getMass() const override;
+    [[nodiscard]] double getMass() const override;
 
-    Vector2D getPosition() const override;
+    [[nodiscard]] Vector2D getPosition() const override;
 
     void draw() const override;
 
     void initFromDialog() override;
 
-    std::string getClassName() const override;
+    [[nodiscard]] std::string getClassName() const override;
 
-    uint64_t getSize() const override;
+    [[nodiscard]] uint64_t getSize() const override;
 
     Rectangle();
 
@@ -88,7 +92,7 @@ public:
 class Trapeze : public IFigure {
 private:
     const std::string name = "Trapeze";
-    double a, b;
+    double a, b, h;
     double mass;
     Vector2D position{};
 public:
@@ -97,28 +101,28 @@ public:
 
     bool operator<(const IPhysObject& x) const override;
 
-    double getSquare() const override;
+    [[nodiscard]] double getSquare() const override;
 
-    double getPerimeter() const override;
+    [[nodiscard]] double getPerimeter() const override;
 
-    double getMass() const override;
+    [[nodiscard]] double getMass() const override;
 
-    Vector2D getPosition() const override;
+    [[nodiscard]] Vector2D getPosition() const override;
 
     void draw() const override;
 
     void initFromDialog() override;
 
-    std::string getClassName() const override;
+    [[nodiscard]] std::string getClassName() const override;
 
-    uint64_t getSize() const override;
+    [[nodiscard]] uint64_t getSize() const override;
 
     Trapeze();
 
-    Trapeze(const double& a_, const double& b_,
-              const double& mass_, const Vector2D& position_);
+    Trapeze(const double& a_, const double& b_, const double& h_,
+            const double& mass_, const Vector2D& position_);
 
-    Trapeze(const Rectangle& x);
+    Trapeze(const Trapeze& x);
 };
 
 
