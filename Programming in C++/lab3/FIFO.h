@@ -21,6 +21,7 @@ private:
     node* e;
 public:
     FIFO();
+    FIFO(const FIFO& f);
 
     int32_t front();
     bool push(int32_t);

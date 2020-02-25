@@ -77,4 +77,15 @@ bool FIFO::pop() {
     return true;
 }
 
+FIFO::FIFO(const FIFO &f) {
+    this->f = nullptr;
+    this->e = nullptr;
+    this->size = 0;
+    node* i = f.f;
+    while (i != nullptr) {
+        this->push(i->val);
+        i = i->next;
+    }
+}
+
 
