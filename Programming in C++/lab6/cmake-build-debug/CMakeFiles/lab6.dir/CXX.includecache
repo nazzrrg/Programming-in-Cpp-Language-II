@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/common.h
+common.tpp
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/common.tpp
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/common.tpp
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/main.cpp
+iostream
+-
+vector
+-
+set
+-
+common.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab6/common.h
+
