@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/main.cpp
+iostream
+-
+myException.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myException.h
+myArray.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.h
+myArray.cpp
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.cpp
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.cpp
+myArray.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.h
+myException.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myException.h
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.h
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myException.cpp
+myException.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myException.h
+exception
+-
+utility
+-
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myException.h
+exception
+-
+string
+-
+
