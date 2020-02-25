@@ -150,33 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-myArray.o: myArray.cpp.o
-
-.PHONY : myArray.o
-
-# target to build an object file
-myArray.cpp.o:
-	$(MAKE) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/myArray.cpp.o
-.PHONY : myArray.cpp.o
-
-myArray.i: myArray.cpp.i
-
-.PHONY : myArray.i
-
-# target to preprocess a source file
-myArray.cpp.i:
-	$(MAKE) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/myArray.cpp.i
-.PHONY : myArray.cpp.i
-
-myArray.s: myArray.cpp.s
-
-.PHONY : myArray.s
-
-# target to generate assembly for a file
-myArray.cpp.s:
-	$(MAKE) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/myArray.cpp.s
-.PHONY : myArray.cpp.s
-
 myException.o: myException.cpp.o
 
 .PHONY : myException.o
@@ -216,9 +189,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... myArray.o"
-	@echo "... myArray.i"
-	@echo "... myArray.s"
 	@echo "... myException.o"
 	@echo "... myException.i"
 	@echo "... myException.s"

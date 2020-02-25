@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab5.dir/main.cpp.o"
-  "CMakeFiles/lab5.dir/myArray.cpp.o"
   "CMakeFiles/lab5.dir/myException.cpp.o"
   "lab5"
   "lab5.pdb"

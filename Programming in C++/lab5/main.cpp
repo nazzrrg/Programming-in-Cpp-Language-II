@@ -1,7 +1,6 @@
 #include <iostream>
 #include "myException.h"
 #include "myArray.h"
-#include "myArray.cpp"
 
 template <typename T>
 double myPow(const T& n, const int p) {

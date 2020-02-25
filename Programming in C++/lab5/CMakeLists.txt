@@ -3,4 +3,4 @@ project(lab5)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(lab5 main.cpp myException.cpp myException.h myArray.cpp myArray.h)
+add_executable(lab5 main.cpp myException.cpp myException.h myArray.tpp myArray.h)

@@ -17,5 +17,5 @@ public:
 };
 
 
-
+#include "myArray.tpp"
 #endif //LAB5_MYARRAY_H

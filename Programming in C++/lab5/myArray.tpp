@@ -2,7 +2,6 @@
 // Created by Егор Назаров on 25.02.2020.
 //
 
-#include "myArray.h"
 #include "myException.h"
 
 template<class T>

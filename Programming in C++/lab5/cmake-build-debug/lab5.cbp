@@ -83,10 +83,10 @@
 		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/main.cpp">
 			<Option target="lab5"/>
 		</Unit>
-		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.cpp">
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.h">
 			<Option target="lab5"/>
 		</Unit>
-		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.h">
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myArray.tpp">
 			<Option target="lab5"/>
 		</Unit>
 		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab5/myException.cpp">
