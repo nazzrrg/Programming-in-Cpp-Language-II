@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/Menu.cpp
+iostream
+-
+Menu.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/Menu.h
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/Menu.h
+TextIn.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/TextIn.h
+
 /Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/TextIn.cpp
 TextIn.h
 /Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/TextIn.h
@@ -17,4 +27,10 @@ cstdio
 -
 string
 -
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/main.cpp
+iostream
+-
+Menu.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/Menu.h
 

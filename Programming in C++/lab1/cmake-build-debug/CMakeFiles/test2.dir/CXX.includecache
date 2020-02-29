@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/Matrix.cpp
+iostream
+-
+Matrix.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/Matrix.h
+
 /Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/Matrix.h
 cstdint
 -
 vector
 -
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/circle.cpp
+circle.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/circle.h
 
 /Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab1/circle.h
 

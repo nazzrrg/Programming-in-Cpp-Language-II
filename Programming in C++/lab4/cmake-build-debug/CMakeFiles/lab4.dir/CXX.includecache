@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab4/Interface.cpp
-iostream
--
-cmath
--
-Interface.h
-/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab4/Interface.h
-
 /Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab4/Interface.h
 string
 -
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab4/main.cpp
+vector
+-
+iostream
+-
+Interface.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab4/Interface.h
 

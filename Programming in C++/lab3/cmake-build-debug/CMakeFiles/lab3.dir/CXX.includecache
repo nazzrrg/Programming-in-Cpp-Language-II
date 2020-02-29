@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/FIFO.cpp
+cstdlib
+-
+iostream
+-
+FIFO.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/FIFO.h
+
 /Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab3/FIFO.h
 cstdint
 -

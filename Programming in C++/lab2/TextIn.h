@@ -9,9 +9,11 @@ class TextIn {
 private:
     char* path;
     FILE * f;
+    bool open;
 
 public:
     TextIn();
+    TextIn(const TextIn&);
     explicit TextIn(const std::string&);
     explicit TextIn(char*);
     bool openFile();

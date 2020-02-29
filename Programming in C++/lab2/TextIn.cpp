@@ -5,29 +5,34 @@
 TextIn::TextIn() {
     path = strdup("input.txt");
     f = nullptr;
+    open = false;
 }
 TextIn::TextIn(const std::string& p) {
     path = strdup(p.c_str());
     f = nullptr;
+    open = false;
 }
 TextIn::TextIn(char* p) {
     path = strdup(p);
     f = nullptr;
+    open = false;
 }
 
 bool TextIn::openFile() {
     f = fopen(path, "r");
+    open = true;
     return (f != nullptr);
 }
 void TextIn::closeFile() {
     fclose(f);
+    open = false;
     f = nullptr;
 }
 std::string TextIn::getFileName() {
     return std::string(path);
 }
 bool TextIn::isOpen() {
-    return (f != nullptr);
+    return (open);
 }
 bool TextIn::isEnd() {
     if (isOpen())
@@ -61,4 +66,14 @@ bool TextIn::getWord(std::string& s) {
 //    s = s.substr(0, s.find(' '));
 
     return true;
+}
+
+TextIn::TextIn(const TextIn& other) {
+    this->path = strdup(other.path);
+    this->open = other.open;
+    if (other.open) {
+        this->f = fopen(path, "r");
+    } else {
+        this->f = nullptr;
+    }
 }
