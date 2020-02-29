@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/Menu.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/Menu.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/TextIn.cpp">
 			<Option target="lab2"/>
 		</Unit>

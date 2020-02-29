@@ -15,7 +15,7 @@ public:
     explicit TextIn(const std::string&);
     explicit TextIn(char*);
     bool openFile();
-    bool closeFile();
+    void closeFile();
     std::string getFileName();
     bool isOpen();
     bool isEnd();

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab2.dir/Menu.cpp.o"
   "CMakeFiles/lab2.dir/TextIn.cpp.o"
   "CMakeFiles/lab2.dir/main.cpp.o"
   "lab2"

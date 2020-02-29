@@ -19,7 +19,7 @@ bool TextIn::openFile() {
     f = fopen(path, "r");
     return (f != nullptr);
 }
-bool TextIn::closeFile() {
+void TextIn::closeFile() {
     fclose(f);
 }
 std::string TextIn::getFileName() {

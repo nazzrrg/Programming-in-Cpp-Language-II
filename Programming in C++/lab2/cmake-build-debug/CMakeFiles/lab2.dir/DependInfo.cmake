@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/Menu.cpp" "/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/cmake-build-debug/CMakeFiles/lab2.dir/Menu.cpp.o"
   "/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/TextIn.cpp" "/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/cmake-build-debug/CMakeFiles/lab2.dir/TextIn.cpp.o"
   "/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/main.cpp" "/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab2/cmake-build-debug/CMakeFiles/lab2.dir/main.cpp.o"
   )
