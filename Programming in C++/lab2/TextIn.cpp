@@ -21,6 +21,7 @@ bool TextIn::openFile() {
 }
 void TextIn::closeFile() {
     fclose(f);
+    f = nullptr;
 }
 std::string TextIn::getFileName() {
     return std::string(path);
