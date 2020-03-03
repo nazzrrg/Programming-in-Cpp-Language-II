@@ -1,7 +1,7 @@
 # Лабораторная работа №2. Классы.
 ## Файлы работы:
 [main.cpp](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab2/main.cpp)<br>
-[TextIn.cpp](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab2/TextIn.cpp), [TextIn.h](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab2/TextIn.h)
+[TextIn.cpp](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab2/TextIn.cpp), [TextIn.h](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab2/TextIn.h)<br>
 [Menu.cpp](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab2/Menu.cpp), [Menu.h](https://github.com/nazzrrg/Programming-in-Cpp-Language-II/blob/master/Programming%20in%20C%2B%2B/lab2/Menu.h)
 
 ## Задание
