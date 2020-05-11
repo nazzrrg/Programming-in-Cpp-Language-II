@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab7/MyCircularBuffer.h
+stdexcept
+-
+iterator
+-
+MyCircularBuffer.tpp
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab7/MyCircularBuffer.tpp
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab7/MyCircularBuffer.tpp
+
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab7/main.cpp
+iostream
+-
+MyCircularBuffer.h
+/Users/nazzrrg/Git/Programming-in-Cpp-Language-II/Programming in C++/lab7/MyCircularBuffer.h
+

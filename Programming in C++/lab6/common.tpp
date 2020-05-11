@@ -16,7 +16,7 @@ template <typename containerIterator, typename object>
 bool isSorted(const containerIterator begin, const containerIterator end, bool (&f)(object, object)) {
     containerIterator prev = begin;
     for (auto it = next(begin); it != end; it = next(it)) {
-        if (!f(*prev, *it)) {
+        if (!f(*prev, *it)) { // комаратор возвращает 1 еслиементы стоят правильно
             return false;
         }
         prev = it;
