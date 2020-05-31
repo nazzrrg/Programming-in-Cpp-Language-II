@@ -52,6 +52,18 @@ public:
     bool operator!=(const circular_buffer_iterator& rhs) {
         return this->ptr_ != rhs.ptr_;
     }
+    bool operator>(const circular_buffer_iterator& rhs) {
+        return *(this->ptr_) > *(rhs.ptr_);
+    }
+    bool operator>=(const circular_buffer_iterator& rhs) {
+        return *(this->ptr_) >= *(rhs.ptr_);
+    }
+    bool operator<(const circular_buffer_iterator& rhs) {
+        return *(this->ptr_) < *(rhs.ptr_);
+    }
+    bool operator<=(const circular_buffer_iterator& rhs) {
+        return *(this->ptr_) <= *(rhs.ptr_);
+    }
 private:
     size_t size_;
     size_t pos_;
@@ -256,7 +268,7 @@ public:
     iterator insert(iterator pos, const value_type& item) {
         *pos = item;
     }
-    iterator remove(iterator pos) {
+    bool remove(iterator pos) {
         size_type spot = pos.get_pos();
         size_type it = tail_;
         size_type next = it + 1;
@@ -287,7 +299,7 @@ public:
         return circular_buffer_iterator(array_, array_size_, tail_);
     }
     const_iterator begin() const {
-        return circular_buffer_const_iterator(array_, array_size_, tail_);
+        return circular_buffer_iterator(array_, array_size_, tail_);
     }
     const_iterator cbegin() const {
         return circular_buffer_const_iterator(array_, array_size_, tail_);
@@ -300,7 +312,7 @@ public:
     }
     const_iterator end() const {
         increment_head();
-        iterator it = circular_buffer_const_iterator(array_, array_size_, head_);
+        iterator it = circular_buffer_iterator(array_, array_size_, head_);
         decrement_head();
         return it;
     }
@@ -311,14 +323,17 @@ public:
         return it;
     }
     reference operator[](size_type index) {
-        if (!index_in_bounds(index)) throw std::runtime_error("Error, index out of bounds!");
+        if (!index_in_bounds(index)) throw std::out_of_range("Error, index out of bounds!");
         return array_[index];
     }
     const_reference operator[](size_type index) const {
-        if (!index_in_bounds(index)) throw std::runtime_error("Error, index out of bounds!");
+        if (!index_in_bounds(index)) throw std::out_of_range("Error, index out of bounds!");
         return array_[index];
     }
     void resize(size_type size) {
+        if (size < contents_size_) {
+            throw std::runtime_error("Unable to shrink array!");
+        }
         value_type* tmp = array_;
         array_ = new value_type[size];
         size_type new_array_size_ = size;
@@ -333,6 +348,7 @@ public:
             new_tail_++;
             if (new_tail_ == new_array_size_) new_tail_ = 0;
         }
+
         delete [] tmp;
         tail_ = new_head_;
         head_ = --new_tail_;
@@ -363,14 +379,6 @@ private:
     }
     bool index_in_bounds(size_type index) {
         return index < contents_size_;
-//        size_type it = tail_;
-//        for (int i = 0; i < contents_size_; ++i) {
-//            if (index == it)
-//                return true;
-//            it++;
-//            if (it > array_size_) it = 0;
-//        }
-//        return false;
     }
 };
 

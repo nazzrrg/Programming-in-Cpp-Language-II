@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571EF9262479C31800C4F955 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9252479C31800C4F955 /* AppDelegate.mm */; };
+		571EF92B2479C31B00C4F955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571EF92A2479C31B00C4F955 /* Assets.xcassets */; };
+		571EF92E2479C31B00C4F955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571EF92C2479C31B00C4F955 /* Main.storyboard */; };
+		571EF9312479C31B00C4F955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9302479C31B00C4F955 /* main.m */; };
+		571EF93C2479C3CA00C4F955 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571EF93A2479C3CA00C4F955 /* GLKit.framework */; };
+		571EF93D2479C3CA00C4F955 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571EF93B2479C3CA00C4F955 /* OpenGL.framework */; };
+		571EF93F2479C3CF00C4F955 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571EF93E2479C3CF00C4F955 /* AppKit.framework */; };
+		571EF9462479C58100C4F955 /* cubeViewObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 571EF9442479C58100C4F955 /* cubeViewObj.h */; };
+		571EF9472479C58100C4F955 /* cubeViewObj.mm in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9452479C58100C4F955 /* cubeViewObj.mm */; };
+		571EF94A2479E88000C4F955 /* cubeWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 571EF9482479E88000C4F955 /* cubeWindowController.h */; };
+		571EF94B2479E88000C4F955 /* cubeWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9492479E88000C4F955 /* cubeWindowController.mm */; };
+		571EF9782479F5B200C4F955 /* cubeViewController.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF94C2479F5B000C4F955 /* cubeViewController.hpp */; };
+		571EF9792479F5B200C4F955 /* cubeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571EF94D2479F5B000C4F955 /* cubeController.cpp */; };
+		571EF97A2479F5B200C4F955 /* fileHandler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF94E2479F5B000C4F955 /* fileHandler.hpp */; };
+		571EF97B2479F5B200C4F955 /* cubeView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571EF94F2479F5B000C4F955 /* cubeView.cpp */; };
+		571EF97C2479F5B200C4F955 /* CubeAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9502479F5B000C4F955 /* CubeAPI.cpp */; };
+		571EF97D2479F5B200C4F955 /* cubeController.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF9512479F5B000C4F955 /* cubeController.hpp */; };
+		571EF9822479F5B200C4F955 /* fileHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9592479F5B100C4F955 /* fileHandler.cpp */; };
+		571EF9832479F5B200C4F955 /* Shader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF95A2479F5B100C4F955 /* Shader.hpp */; };
+		571EF9992479F5B200C4F955 /* cubeView.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF9712479F5B100C4F955 /* cubeView.hpp */; };
+		571EF99A2479F5B200C4F955 /* cubeViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9722479F5B100C4F955 /* cubeViewController.cpp */; };
+		571EF99B2479F5B200C4F955 /* cubeModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9732479F5B100C4F955 /* cubeModel.cpp */; };
+		571EF99C2479F5B200C4F955 /* cubeModel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF9742479F5B100C4F955 /* cubeModel.hpp */; };
+		571EF99D2479F5B200C4F955 /* smallCubeModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571EF9752479F5B100C4F955 /* smallCubeModel.cpp */; };
+		571EF99E2479F5B200C4F955 /* smallCubeModel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF9762479F5B100C4F955 /* smallCubeModel.hpp */; };
+		571EF99F2479F5B200C4F955 /* CubeAPI.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 571EF9772479F5B200C4F955 /* CubeAPI.hpp */; };
+		5761C2C9247B871C00141DE5 /* res in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5761C2C8247B871C00141DE5 /* res */; };
+		57E41C47247A8304009D9DDC /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 57E41C32247A8304009D9DDC /* image_helper.c */; };
+		57E41C48247A8304009D9DDC /* stbi_pkm.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C33247A8304009D9DDC /* stbi_pkm.h */; };
+		57E41C49247A8304009D9DDC /* jo_jpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C34247A8304009D9DDC /* jo_jpeg.h */; };
+		57E41C4A247A8304009D9DDC /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 57E41C35247A8304009D9DDC /* image_DXT.c */; };
+		57E41C4B247A8304009D9DDC /* etc1_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C36247A8304009D9DDC /* etc1_utils.h */; };
+		57E41C4C247A8304009D9DDC /* stb_image_write.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C37247A8304009D9DDC /* stb_image_write.h */; };
+		57E41C4D247A8304009D9DDC /* SOIL2.c in Sources */ = {isa = PBXBuildFile; fileRef = 57E41C38247A8304009D9DDC /* SOIL2.c */; };
+		57E41C4E247A8304009D9DDC /* pkm_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C39247A8304009D9DDC /* pkm_helper.h */; };
+		57E41C4F247A8304009D9DDC /* stbi_DDS_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C3A247A8304009D9DDC /* stbi_DDS_c.h */; };
+		57E41C50247A8304009D9DDC /* stbi_pvr.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C3B247A8304009D9DDC /* stbi_pvr.h */; };
+		57E41C51247A8304009D9DDC /* stbi_ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C3C247A8304009D9DDC /* stbi_ext.h */; };
+		57E41C52247A8304009D9DDC /* stb_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C3D247A8304009D9DDC /* stb_image.h */; };
+		57E41C53247A8304009D9DDC /* stbi_pvr_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C3E247A8304009D9DDC /* stbi_pvr_c.h */; };
+		57E41C54247A8304009D9DDC /* stbi_ext_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C3F247A8304009D9DDC /* stbi_ext_c.h */; };
+		57E41C55247A8304009D9DDC /* image_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C40247A8304009D9DDC /* image_helper.h */; };
+		57E41C56247A8304009D9DDC /* SOIL2.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C41247A8304009D9DDC /* SOIL2.h */; };
+		57E41C57247A8304009D9DDC /* etc1_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 57E41C42247A8304009D9DDC /* etc1_utils.c */; };
+		57E41C58247A8304009D9DDC /* image_DXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C43247A8304009D9DDC /* image_DXT.h */; };
+		57E41C59247A8304009D9DDC /* stbi_pkm_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C44247A8304009D9DDC /* stbi_pkm_c.h */; };
+		57E41C5A247A8304009D9DDC /* stbi_DDS.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C45247A8304009D9DDC /* stbi_DDS.h */; };
+		57E41C5B247A8304009D9DDC /* pvr_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E41C46247A8304009D9DDC /* pvr_helper.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		571EFA102479FA5800C4F955 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				5761C2C9247B871C00141DE5 /* res in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		571EF9212479C31800C4F955 /* Rubick's Cube 1.0 by nazzrrg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rubick's Cube 1.0 by nazzrrg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		571EF9242479C31800C4F955 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		571EF9252479C31800C4F955 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		571EF92A2479C31B00C4F955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		571EF92D2479C31B00C4F955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		571EF92F2479C31B00C4F955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571EF9302479C31B00C4F955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571EF9322479C31B00C4F955 /* Rubick_s_Cube_1_0_by_nazzrrg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rubick_s_Cube_1_0_by_nazzrrg.entitlements; sourceTree = "<group>"; };
+		571EF93A2479C3CA00C4F955 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		571EF93B2479C3CA00C4F955 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		571EF93E2479C3CF00C4F955 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		571EF9442479C58100C4F955 /* cubeViewObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cubeViewObj.h; sourceTree = "<group>"; };
+		571EF9452479C58100C4F955 /* cubeViewObj.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = cubeViewObj.mm; sourceTree = "<group>"; };
+		571EF9482479E88000C4F955 /* cubeWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cubeWindowController.h; sourceTree = "<group>"; };
+		571EF9492479E88000C4F955 /* cubeWindowController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = cubeWindowController.mm; sourceTree = "<group>"; };
+		571EF94C2479F5B000C4F955 /* cubeViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cubeViewController.hpp; sourceTree = "<group>"; };
+		571EF94D2479F5B000C4F955 /* cubeController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cubeController.cpp; sourceTree = "<group>"; };
+		571EF94E2479F5B000C4F955 /* fileHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fileHandler.hpp; sourceTree = "<group>"; };
+		571EF94F2479F5B000C4F955 /* cubeView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cubeView.cpp; sourceTree = "<group>"; };
+		571EF9502479F5B000C4F955 /* CubeAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CubeAPI.cpp; sourceTree = "<group>"; };
+		571EF9512479F5B000C4F955 /* cubeController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cubeController.hpp; sourceTree = "<group>"; };
+		571EF9592479F5B100C4F955 /* fileHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileHandler.cpp; sourceTree = "<group>"; };
+		571EF95A2479F5B100C4F955 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		571EF9712479F5B100C4F955 /* cubeView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cubeView.hpp; sourceTree = "<group>"; };
+		571EF9722479F5B100C4F955 /* cubeViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cubeViewController.cpp; sourceTree = "<group>"; };
+		571EF9732479F5B100C4F955 /* cubeModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cubeModel.cpp; sourceTree = "<group>"; };
+		571EF9742479F5B100C4F955 /* cubeModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cubeModel.hpp; sourceTree = "<group>"; };
+		571EF9752479F5B100C4F955 /* smallCubeModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smallCubeModel.cpp; sourceTree = "<group>"; };
+		571EF9762479F5B100C4F955 /* smallCubeModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = smallCubeModel.hpp; sourceTree = "<group>"; };
+		571EF9772479F5B200C4F955 /* CubeAPI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CubeAPI.hpp; sourceTree = "<group>"; };
+		5761C2C8247B871C00141DE5 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = "Rubick's Cube 1.0 by nazzrrg/res"; sourceTree = "<group>"; };
+		57E41C32247A8304009D9DDC /* image_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_helper.c; sourceTree = "<group>"; };
+		57E41C33247A8304009D9DDC /* stbi_pkm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pkm.h; sourceTree = "<group>"; };
+		57E41C34247A8304009D9DDC /* jo_jpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jo_jpeg.h; sourceTree = "<group>"; };
+		57E41C35247A8304009D9DDC /* image_DXT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_DXT.c; sourceTree = "<group>"; };
+		57E41C36247A8304009D9DDC /* etc1_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = etc1_utils.h; sourceTree = "<group>"; };
+		57E41C37247A8304009D9DDC /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		57E41C38247A8304009D9DDC /* SOIL2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SOIL2.c; sourceTree = "<group>"; };
+		57E41C39247A8304009D9DDC /* pkm_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkm_helper.h; sourceTree = "<group>"; };
+		57E41C3A247A8304009D9DDC /* stbi_DDS_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_c.h; sourceTree = "<group>"; };
+		57E41C3B247A8304009D9DDC /* stbi_pvr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pvr.h; sourceTree = "<group>"; };
+		57E41C3C247A8304009D9DDC /* stbi_ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_ext.h; sourceTree = "<group>"; };
+		57E41C3D247A8304009D9DDC /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		57E41C3E247A8304009D9DDC /* stbi_pvr_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pvr_c.h; sourceTree = "<group>"; };
+		57E41C3F247A8304009D9DDC /* stbi_ext_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_ext_c.h; sourceTree = "<group>"; };
+		57E41C40247A8304009D9DDC /* image_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_helper.h; sourceTree = "<group>"; };
+		57E41C41247A8304009D9DDC /* SOIL2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOIL2.h; sourceTree = "<group>"; };
+		57E41C42247A8304009D9DDC /* etc1_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = etc1_utils.c; sourceTree = "<group>"; };
+		57E41C43247A8304009D9DDC /* image_DXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_DXT.h; sourceTree = "<group>"; };
+		57E41C44247A8304009D9DDC /* stbi_pkm_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pkm_c.h; sourceTree = "<group>"; };
+		57E41C45247A8304009D9DDC /* stbi_DDS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS.h; sourceTree = "<group>"; };
+		57E41C46247A8304009D9DDC /* pvr_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pvr_helper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571EF91E2479C31800C4F955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571EF93F2479C3CF00C4F955 /* AppKit.framework in Frameworks */,
+				571EF93C2479C3CA00C4F955 /* GLKit.framework in Frameworks */,
+				571EF93D2479C3CA00C4F955 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571EF9182479C31800C4F955 = {
+			isa = PBXGroup;
+			children = (
+				5761C2C8247B871C00141DE5 /* res */,
+				57E41C31247A8304009D9DDC /* SOIL2 */,
+				571EF9232479C31800C4F955 /* Rubick's Cube 1.0 by nazzrrg */,
+				571EF9222479C31800C4F955 /* Products */,
+				571EF9392479C3CA00C4F955 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		571EF9222479C31800C4F955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571EF9212479C31800C4F955 /* Rubick's Cube 1.0 by nazzrrg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571EF9232479C31800C4F955 /* Rubick's Cube 1.0 by nazzrrg */ = {
+			isa = PBXGroup;
+			children = (
+				571EF9502479F5B000C4F955 /* CubeAPI.cpp */,
+				571EF9772479F5B200C4F955 /* CubeAPI.hpp */,
+				571EF94D2479F5B000C4F955 /* cubeController.cpp */,
+				571EF9512479F5B000C4F955 /* cubeController.hpp */,
+				571EF9732479F5B100C4F955 /* cubeModel.cpp */,
+				571EF9742479F5B100C4F955 /* cubeModel.hpp */,
+				571EF94F2479F5B000C4F955 /* cubeView.cpp */,
+				571EF9712479F5B100C4F955 /* cubeView.hpp */,
+				571EF9722479F5B100C4F955 /* cubeViewController.cpp */,
+				571EF94C2479F5B000C4F955 /* cubeViewController.hpp */,
+				571EF9592479F5B100C4F955 /* fileHandler.cpp */,
+				571EF94E2479F5B000C4F955 /* fileHandler.hpp */,
+				571EF95A2479F5B100C4F955 /* Shader.hpp */,
+				571EF9752479F5B100C4F955 /* smallCubeModel.cpp */,
+				571EF9762479F5B100C4F955 /* smallCubeModel.hpp */,
+				571EF9242479C31800C4F955 /* AppDelegate.h */,
+				571EF9252479C31800C4F955 /* AppDelegate.mm */,
+				571EF92A2479C31B00C4F955 /* Assets.xcassets */,
+				571EF92C2479C31B00C4F955 /* Main.storyboard */,
+				571EF92F2479C31B00C4F955 /* Info.plist */,
+				571EF9302479C31B00C4F955 /* main.m */,
+				571EF9322479C31B00C4F955 /* Rubick_s_Cube_1_0_by_nazzrrg.entitlements */,
+				571EF9442479C58100C4F955 /* cubeViewObj.h */,
+				571EF9452479C58100C4F955 /* cubeViewObj.mm */,
+				571EF9482479E88000C4F955 /* cubeWindowController.h */,
+				571EF9492479E88000C4F955 /* cubeWindowController.mm */,
+			);
+			path = "Rubick's Cube 1.0 by nazzrrg";
+			sourceTree = "<group>";
+		};
+		571EF9392479C3CA00C4F955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571EF93E2479C3CF00C4F955 /* AppKit.framework */,
+				571EF93A2479C3CA00C4F955 /* GLKit.framework */,
+				571EF93B2479C3CA00C4F955 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57E41C31247A8304009D9DDC /* SOIL2 */ = {
+			isa = PBXGroup;
+			children = (
+				57E41C32247A8304009D9DDC /* image_helper.c */,
+				57E41C33247A8304009D9DDC /* stbi_pkm.h */,
+				57E41C34247A8304009D9DDC /* jo_jpeg.h */,
+				57E41C35247A8304009D9DDC /* image_DXT.c */,
+				57E41C36247A8304009D9DDC /* etc1_utils.h */,
+				57E41C37247A8304009D9DDC /* stb_image_write.h */,
+				57E41C38247A8304009D9DDC /* SOIL2.c */,
+				57E41C39247A8304009D9DDC /* pkm_helper.h */,
+				57E41C3A247A8304009D9DDC /* stbi_DDS_c.h */,
+				57E41C3B247A8304009D9DDC /* stbi_pvr.h */,
+				57E41C3C247A8304009D9DDC /* stbi_ext.h */,
+				57E41C3D247A8304009D9DDC /* stb_image.h */,
+				57E41C3E247A8304009D9DDC /* stbi_pvr_c.h */,
+				57E41C3F247A8304009D9DDC /* stbi_ext_c.h */,
+				57E41C40247A8304009D9DDC /* image_helper.h */,
+				57E41C41247A8304009D9DDC /* SOIL2.h */,
+				57E41C42247A8304009D9DDC /* etc1_utils.c */,
+				57E41C43247A8304009D9DDC /* image_DXT.h */,
+				57E41C44247A8304009D9DDC /* stbi_pkm_c.h */,
+				57E41C45247A8304009D9DDC /* stbi_DDS.h */,
+				57E41C46247A8304009D9DDC /* pvr_helper.h */,
+			);
+			name = SOIL2;
+			path = "Rubick's Cube 1.0 by nazzrrg/SOIL2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		571EF9382479C3BF00C4F955 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571EF97A2479F5B200C4F955 /* fileHandler.hpp in Headers */,
+				57E41C5A247A8304009D9DDC /* stbi_DDS.h in Headers */,
+				57E41C4C247A8304009D9DDC /* stb_image_write.h in Headers */,
+				57E41C49247A8304009D9DDC /* jo_jpeg.h in Headers */,
+				571EF99F2479F5B200C4F955 /* CubeAPI.hpp in Headers */,
+				571EF9832479F5B200C4F955 /* Shader.hpp in Headers */,
+				571EF99C2479F5B200C4F955 /* cubeModel.hpp in Headers */,
+				57E41C56247A8304009D9DDC /* SOIL2.h in Headers */,
+				57E41C4B247A8304009D9DDC /* etc1_utils.h in Headers */,
+				571EF9462479C58100C4F955 /* cubeViewObj.h in Headers */,
+				57E41C50247A8304009D9DDC /* stbi_pvr.h in Headers */,
+				57E41C54247A8304009D9DDC /* stbi_ext_c.h in Headers */,
+				57E41C5B247A8304009D9DDC /* pvr_helper.h in Headers */,
+				57E41C4E247A8304009D9DDC /* pkm_helper.h in Headers */,
+				571EF97D2479F5B200C4F955 /* cubeController.hpp in Headers */,
+				571EF9782479F5B200C4F955 /* cubeViewController.hpp in Headers */,
+				57E41C51247A8304009D9DDC /* stbi_ext.h in Headers */,
+				57E41C4F247A8304009D9DDC /* stbi_DDS_c.h in Headers */,
+				57E41C59247A8304009D9DDC /* stbi_pkm_c.h in Headers */,
+				571EF99E2479F5B200C4F955 /* smallCubeModel.hpp in Headers */,
+				57E41C52247A8304009D9DDC /* stb_image.h in Headers */,
+				57E41C48247A8304009D9DDC /* stbi_pkm.h in Headers */,
+				57E41C53247A8304009D9DDC /* stbi_pvr_c.h in Headers */,
+				571EF9992479F5B200C4F955 /* cubeView.hpp in Headers */,
+				57E41C55247A8304009D9DDC /* image_helper.h in Headers */,
+				571EF94A2479E88000C4F955 /* cubeWindowController.h in Headers */,
+				57E41C58247A8304009D9DDC /* image_DXT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		571EF9202479C31800C4F955 /* Rubick's Cube 1.0 by nazzrrg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571EF9352479C31B00C4F955 /* Build configuration list for PBXNativeTarget "Rubick's Cube 1.0 by nazzrrg" */;
+			buildPhases = (
+				571EF9382479C3BF00C4F955 /* Headers */,
+				571EF91D2479C31800C4F955 /* Sources */,
+				571EF91E2479C31800C4F955 /* Frameworks */,
+				571EF91F2479C31800C4F955 /* Resources */,
+				571EFA102479FA5800C4F955 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rubick's Cube 1.0 by nazzrrg";
+			productName = "Rubick's Cube 1.0 by nazzrrg";
+			productReference = 571EF9212479C31800C4F955 /* Rubick's Cube 1.0 by nazzrrg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571EF9192479C31800C4F955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Егор Назаров";
+				TargetAttributes = {
+					571EF9202479C31800C4F955 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 571EF91C2479C31800C4F955 /* Build configuration list for PBXProject "Rubick's Cube 1.0 by nazzrrg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571EF9182479C31800C4F955;
+			productRefGroup = 571EF9222479C31800C4F955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571EF9202479C31800C4F955 /* Rubick's Cube 1.0 by nazzrrg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571EF91F2479C31800C4F955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571EF92B2479C31B00C4F955 /* Assets.xcassets in Resources */,
+				571EF92E2479C31B00C4F955 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571EF91D2479C31800C4F955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571EF99B2479F5B200C4F955 /* cubeModel.cpp in Sources */,
+				571EF94B2479E88000C4F955 /* cubeWindowController.mm in Sources */,
+				57E41C4D247A8304009D9DDC /* SOIL2.c in Sources */,
+				571EF9792479F5B200C4F955 /* cubeController.cpp in Sources */,
+				57E41C4A247A8304009D9DDC /* image_DXT.c in Sources */,
+				571EF9472479C58100C4F955 /* cubeViewObj.mm in Sources */,
+				571EF9312479C31B00C4F955 /* main.m in Sources */,
+				57E41C47247A8304009D9DDC /* image_helper.c in Sources */,
+				571EF97C2479F5B200C4F955 /* CubeAPI.cpp in Sources */,
+				57E41C57247A8304009D9DDC /* etc1_utils.c in Sources */,
+				571EF9262479C31800C4F955 /* AppDelegate.mm in Sources */,
+				571EF97B2479F5B200C4F955 /* cubeView.cpp in Sources */,
+				571EF99D2479F5B200C4F955 /* smallCubeModel.cpp in Sources */,
+				571EF99A2479F5B200C4F955 /* cubeViewController.cpp in Sources */,
+				571EF9822479F5B200C4F955 /* fileHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		571EF92C2479C31B00C4F955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571EF92D2479C31B00C4F955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571EF9332479C31B00C4F955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		571EF9342479C31B00C4F955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		571EF9362479C31B00C4F955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "Rubick's Cube 1.0 by nazzrrg/Rubick_s_Cube_1_0_by_nazzrrg.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Rubick's Cube 1.0 by nazzrrg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testproject.Rubick-s-Cube-1-0-by-nazzrrg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		571EF9372479C31B00C4F955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "Rubick's Cube 1.0 by nazzrrg/Rubick_s_Cube_1_0_by_nazzrrg.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Rubick's Cube 1.0 by nazzrrg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testproject.Rubick-s-Cube-1-0-by-nazzrrg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571EF91C2479C31800C4F955 /* Build configuration list for PBXProject "Rubick's Cube 1.0 by nazzrrg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571EF9332479C31B00C4F955 /* Debug */,
+				571EF9342479C31B00C4F955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571EF9352479C31B00C4F955 /* Build configuration list for PBXNativeTarget "Rubick's Cube 1.0 by nazzrrg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571EF9362479C31B00C4F955 /* Debug */,
+				571EF9372479C31B00C4F955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571EF9192479C31800C4F955 /* Project object */;
+}
